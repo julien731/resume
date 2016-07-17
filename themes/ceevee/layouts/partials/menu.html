@@ -1,0 +1,15 @@
+<nav id="nav-wrap">
+
+	<a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	<a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+	<ul id="nav" class="nav">
+		<li class="current"><a {{ if .IsHome }}class="smoothscroll"{{ end }} href="{{ if ne .IsHome true }}{{.Site.BaseURL}}{{ end }}#home">Home</a></li>
+		<li><a {{ if .IsHome }}class="smoothscroll"{{ end }} href="{{ if ne .IsHome true }}{{.Site.BaseURL}}{{ end }}#about">About</a></li>
+		<li><a {{ if .IsHome }}class="smoothscroll"{{ end }} href="{{ if ne .IsHome true }}{{.Site.BaseURL}}{{ end }}#resume">Resume</a></li>
+		<li><a {{ if .IsHome }}class="smoothscroll"{{ end }} href="{{ if ne .IsHome true }}{{.Site.BaseURL}}{{ end }}#testimonials">Testimonials</a></li>
+		<li><a {{ if .IsHome }}class="smoothscroll"{{ end }} href="{{ if ne .IsHome true }}{{.Site.BaseURL}}{{ end }}#contact">Contact</a></li>
+		<li><a href="https://julienliabeuf.com/?utm_source=resume&utm_medium=menu&utm_campaign=recruitment" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> Blog</a></li>
+	</ul> <!-- end #nav -->
+
+</nav> <!-- end #nav-wrap -->

@@ -1,0 +1,29 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Julien Liabeuf's online resume",
+  "main": "Gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.11",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-concat-util": "^0.5.5",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-surge": "^0.1.0",
+    "gulp-uglify": "^1.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julien731/resume.git"
+  },
+  "author": "Julien Liabeuf",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/julien731/resume/issues"
+  },
+  "homepage": "https://github.com/julien731/resume#readme"
+}

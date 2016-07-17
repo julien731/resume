@@ -1,0 +1,16 @@
+name = "Ceevee"
+license = "MIT"
+licenselink = "https://github.com/julien731/resume/blob/master/LICENSE.md"
+description = "My online resume"
+homepage = "https://resume.julienliabeuf.com"
+min_version = 0.14
+
+[author]
+  name = "Julien Liabeuf"
+  homepage = "https://julienliabeuf.com"
+
+# If porting an existing theme
+[original]
+  name = "CeeVee"
+  homepage = "http://www.styleshout.com"
+  repo = ""

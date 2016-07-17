@@ -1,0 +1,21 @@
+<section class="entry">
+    <div class="row">
+        <article class="hentry post">
+
+            <h1 class="entry-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+
+            {{ if .Params.image }}
+            <figure class="featured-image">
+                <img src="{{.Site.BaseURL}}{{ .Params.image }}" alt="{{ .Title }}">
+            </figure>
+            {{ end }}
+
+            <div class="entry-content">
+                <p>{{ .Summary }}&hellip;</p>
+                <p class="more"><a href="{{ .Permalink }}" class="more-link">Read More &gt;</a></p>
+            </div>
+            <!-- .entry-content -->
+
+        </article>
+    </div>
+</section>

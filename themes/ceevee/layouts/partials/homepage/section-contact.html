@@ -1,0 +1,109 @@
+<!-- Contact Section
+================================================== -->
+<section id="contact">
+
+	<div class="row section-head">
+
+		<div class="two columns header-col">
+
+			<h1><span>Get In Touch.</span></h1>
+
+		</div>
+
+		<div class="ten columns">
+
+			<p class="lead">I’m available for hire and enjoy partnering with others for fun and interesting projects. If you’re interested in hiring me, please contact me.
+			</p>
+
+		</div>
+
+	</div>
+
+	<div class="row">
+
+		<div class="eight columns">
+
+			<!-- form -->
+			<form action="{{.Site.BaseURL}}" method="post" id="contactForm" name="contactForm">
+				<fieldset>
+
+					<div>
+						<label for="contactName">Name <span class="required">*</span></label>
+						<input type="text" value="" size="35" id="contactName" name="name" required>
+					</div>
+
+					<div>
+						<label for="contactEmail">Email <span class="required">*</span></label>
+						<input type="email" value="" size="35" id="contactEmail" name="email" required>
+					</div>
+
+					<div>
+						<label for="contactMessage">Message <span class="required">*</span></label>
+						<textarea cols="50" rows="15" id="contactMessage" name="message" required></textarea>
+					</div>
+
+					<div>
+						<input type="hidden" name="_subject" value="New message from online resume">
+						<input type="submit" class="submit">
+	                     <span id="image-loader">
+	                        <img alt="" src="{{.Site.BaseURL}}images/loader.gif" width="48" height="48">
+	                     </span>
+					</div>
+
+				</fieldset>
+			</form> <!-- Form End -->
+
+			<!-- contact-warning -->
+			<div id="message-warning"> Error</div>
+			<!-- contact-success -->
+			<div id="message-success">
+				<i class="fa fa-check"></i>Your message was sent, thank you!<br>
+			</div>
+
+		</div>
+
+
+		<aside class="four columns footer-widgets">
+
+			<div class="widget widget_contact">
+
+				<h4>Address and Phone</h4>
+				<p class="address">
+					Julien Liabeuf<br>
+					Rama 3,<br>
+					Yannawa, 10120 Bangkok<br>
+					<span>+66(0)87-703-0926</span>
+				</p>
+
+			</div>
+
+			<div class="widget widget_tweets">
+
+				<h4 class="widget-title">Latest Tweets</h4>
+
+				<ul id="twitter">
+					<li>
+                        <span>
+                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+                        <a href="#">http://t.co/CGIrdxIlI3</a>
+                        </span>
+						<b><a href="#">2 Days Ago</a></b>
+					</li>
+					<li>
+                        <span>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                        eaque ipsa quae ab illo inventore veritatis et quasi
+                        <a href="#">http://t.co/CGIrdxIlI3</a>
+                        </span>
+						<b><a href="#">3 Days Ago</a></b>
+					</li>
+				</ul>
+
+			</div>
+
+		</aside>
+
+	</div>
+
+</section> <!-- Contact Section End-->

@@ -1,0 +1,8 @@
+baseurl = "https://resume.julienliabeuf.com/"
+languageCode = "en-us"
+title = "Julien Liabeuf - Business Developer"
+theme = "ceevee"
+
+[params]
+  description = "Julien Liabeuf's online resume"
+  author = "Julien Liabeuf"

@@ -1,0 +1,56 @@
+{{ partial "header" . }}
+
+<body>
+
+<!-- Header
+================================================== -->
+<header id="home">
+
+	{{ partial "menu" . }}
+
+	<div class="row banner">
+		<div class="banner-text">
+			<h1 class="responsive-headline">{{ .Title }}</h1>
+		</div>
+	</div>
+
+</header> <!-- Header End -->
+
+<section id="single" style="padding: 90px 0 72px; background: #fff;">
+
+	<div class="row add-bottom">
+
+		<div class="two columns"></div>
+		<div class="eight columns">
+
+			{{ if .Params.image }}
+				<figure class="featured-image">
+					<img src="{{.Site.BaseURL}}{{ .Params.image }}" alt="{{ .Title }}">
+				</figure>
+			{{ end }}
+
+			{{ if isset .Params "intro" }}
+				<p class="lead add-bottom">{{ .Params.intro }}</p>
+			{{ end }}
+
+			{{ if isset .Params "tags" }}
+				<h2>Key Skills</h2>
+				<ul class="tags">
+					{{ range .Params.tags }}
+						<li><a href="/tags/{{ . | urlize }}" title="View all my work with the {{ . }} skill">{{ . }}</a> </li>
+					{{ end }}
+				</ul>
+			{{ end }}
+
+			{{ .Content }}
+
+			<a class="button button-centered" href="{{.Site.BaseURL}}">&lt; Back</a>
+
+		</div>
+		<div class="two columns"></div>
+
+	</div> <!-- Row End-->
+
+</section> <!-- Resume Section End-->
+
+{{ partial "footer" . }}
