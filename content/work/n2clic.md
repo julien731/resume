@@ -14,7 +14,9 @@ Then things started to change. As time passed, I started to have a more business
 
 > Over the course of the last couple months, both Julien L. and Julien V. were extremely responsive, solution oriented, attentive to our objectives and tirelessly worked to exceed our expectations.
 
-While I still do write code (mostly for personal projects now), I enjoy very much working on the "bigger picture" and developing future-proof business strategies.
+While I still do write code (mostly for personal projects now), I enjoy very much working on the "bigger picture" and developing future-proof business strategies. The business side of things is what I enjoy doing, and it is what gets me up in the morning.
+
+I take great pride in seeing the business growing, reaching its targets and creating sustainable business models. There is always more than one way to develop a business. The process of getting to know the ins and outs of a company and figure out which direction to take is extremely interesting and challenging.
 
 ## Work
 
