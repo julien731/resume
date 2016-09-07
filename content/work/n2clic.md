@@ -2,13 +2,21 @@
 date = "2016-07-07T17:37:44+07:00"
 title = "N2Clic Ltd."
 image = "images/work/n2clic-cover.jpg"
-tags = ["Business Development", "Project Management", "Marketing", "Planning & Strategy", "Sales", "Public Relations"]
+tags = ["Business Development", "Project Management", "Marketing", "Planning & Strategy", "Team Management", "Sales", "Public Relations"]
 intro = "N2Clic Ltd. was a web agency based in Hong Kong. Our services included UI/UX design, WordPress development, mobile expertise, branding and consulting. We've been working with companies all around the world."
 +++
 
+## TL;DR
+
+I co-founder a web agency and managed it for **nearly 7 years**. I dealt with many aspects of managing a company, including **business development**, leading to an **average year-to-year growth of 20%**.
+
+I **managed several products**, including the highly successful support software [*"Awesome Support"*](/work/awesome-support) (**4,000+ active customers**). I finally sold the support business for a 2.7 multiple.
+
+I also managed **many client projects** (approach, negotiations, proposals, briefs, signoff, delivery, support) and **led a team of 5**.
+
 ## Role
 
-My role at N2Clic changed a lot over the years. At the beginning, I had my nose in the code. I was spending my days writing PHP, line after line.
+My role at N2Clic changed a lot over the years. At the beginning, I did a lot of coding. I was spending my days writing PHP, line after line.
 
 Then things started to change. As time passed, I started to have a more business-oriented role in the company. Meeting with clients, defining projects specifications, drafting briefs, and more generally, developing the business.
 
