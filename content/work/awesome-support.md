@@ -6,6 +6,12 @@ tags = ["Customer Support", "Project Management", "Marketing", "Product Manageme
 intro = "Awesome Support is the most versatile help desk and support software for WordPress. It transforms your existing WordPress site into a fully functional ticketing system."
 +++
 
+## TL;DR
+
+I build a support software business **from the ground up**. In the span of 3 years, I took the business **from nothing to over 4,000 active users**, **thousands of dollars** of monthly recurring revenues, and a **90% customer satisfaction** average.
+
+Finally, I sold this business for a 2.7 multiple (above industry average) in August 2016.
+
 ## Origins
 
 Awesome Support was born to fill a gap in N2Clic's own support process.
