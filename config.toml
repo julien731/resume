@@ -2,6 +2,7 @@ baseurl = "https://resume.julienliabeuf.com/"
 languageCode = "en-us"
 title = "Julien Liabeuf - Business Developer"
 theme = "ceevee"
+googleAnalytics = "UA-22409901-7"
 
 [params]
   description = "Julien Liabeuf's online resume"
